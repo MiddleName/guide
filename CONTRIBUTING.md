@@ -196,27 +196,6 @@ You will need to fix the issue before we can merge your PR:
 3. The article doesn't have a `title` field at the top.
     - Please refer to [Title](#title) section below under [Article Style Guide](#article-style-guide).
 
-### Closing
-
-We close a pull request
-
-- if an older PR for the same article is merged, and your PR doesn't add new content
-- if there is zero/little effort in it (e.g: copy pasting from another source like Wikipedia)
-- if there is copied text from a copyrighted source - see [Citation issue](https://github.com/freeCodeCamp/guide/issues/2503)
-- if it does not respect the [Article Style Guide](#article-style-guide)
-- if it does not respect the [Academic Honesty policy](https://www.freecodecamp.org/academic-honesty)
-- if it is stale (if a change is requested and there is no activity for about 2 weeks)
-
-Also, if you're working off a "stub" article, your changes must be substantial enough to replace the stub text.
-
-We won't accept a PR that only adds links to the "More Information:" section.
-
-The repository has a `Normalise.js` script that adds attributes to links, but also checks for "This is a stub..." text via a RegEx.
-
-If found, it will revert the article text back to the generic stub text (and erase your changes).
-
-This is intended behavior, since it allows us to update all stubs if the template stub changed for any reason.
-
 ### Getting Help
 
 There's a community of support from a whole team of contributors, whom you can bounce ideas off of and ask for input on your writing.
